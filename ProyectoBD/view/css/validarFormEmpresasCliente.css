@@ -1,0 +1,24 @@
+.campo:invalid{
+	border: 1px solid red;	
+}
+
+.campo:valid{
+	border: 1px solid green;		
+}
+
+
+.campo:invalid + span::after {
+	content : url('../images/fail.png');
+	padding: 5px;
+	border-radius: 5px;
+	color: red;
+	font-weight : bold;
+}
+
+.campo:valid + span::after {
+	content : url('../images/check.png');
+	padding: 5px;
+	border-radius: 5px;
+	color: red;
+	font-weight : bold;
+}

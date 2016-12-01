@@ -1,0 +1,74 @@
+body{
+ *
+}
+
+h1{
+	padding: 25px 15px;
+}
+
+.index-form-login{
+	padding: 20px;
+	box-shadow: 5px 5px 10px grey;
+	background-color: lightgrey;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 250px;
+	margin-left: 250px;
+}
+
+.index-form-login:hover{
+	box-shadow: 5px 5px 10px black;
+}
+
+/*Estilos index*/
+
+.hovered:hover{
+	background-color: rgba(0,0,0,0.3);
+
+}
+
+nav ul li{
+	margin-right: 5px;
+	
+}
+.footer-principal{
+	margin-top: 80px;
+	font-size: 17px;
+}
+
+.main{
+	margin-top: 70px;
+}
+
+.bajar{
+	margin-top: 50px;
+}
+
+.margen{
+	margin-top: 15px; 
+}
+
+.body-font{
+	background-color: rgba(0,0,0,0.3);
+}
+
+.quitarsalto{
+	margin-top: 0px;
+
+}
+
+.errores{
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background: red;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    color: #fff;
+    display:none;
+    font-size:14px;
+    margin-top:-80px;
+    margin-left:340px;
+    padding:10px;
+    position:absolute;
+	
+}
